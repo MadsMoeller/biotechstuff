@@ -1,11 +1,15 @@
 # Funktioner er lavet til Biotech Academy projeketet: Regnskov + Supercomputer = Fremtidens medicin. 
 # Funktionerne og materialet præsenteret er ikke akademisk korrekt, men er blevet ændret for undervisnings formål. 
+
+# Hotfix til at kompensere for at Bio.Alpabet ikke længere understøttes.
+
 # ==============================================================================
 
 #import nødvendige pakker
 from IPython.display import Image
 from Bio import SeqIO
 from Bio.Seq import Seq
+# from Bio.Alphabet import IUPAC
 from Bio.SeqRecord import SeqRecord
 import requests
 import json
