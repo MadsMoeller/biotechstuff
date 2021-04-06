@@ -2,6 +2,8 @@
 # Funktionerne og materialet præsenteret er ikke akademisk korrekt, men er blevet ændret for undervisnings formål. 
 
 # Hotfix til at kompensere for at Bio.Alpabet ikke længere understøttes.
+# Det er bare statementet "from Bio.Alphabet import IUPAC" (linje 14), som er blevet udkommenteret.
+# Umiddelbart ser det ud til at have virket, og at opgaverne stadigvæk kan løses.
 
 # ==============================================================================
 
